@@ -1,0 +1,168 @@
+body {
+  background: #10151f;
+  color: white;
+  font-family: sans-serif;
+}
+
+.data {
+  color: aliceblue;
+  margin-left: 5px;
+}
+
+i {
+  color: #ddd !important;
+}
+
+
+
+.window-container {
+  height: 15vw;
+  width: 15vw;
+  min-width: 175px;
+  min-height: 175px;
+  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #7575ac45;
+  box-shadow: 0 0 10px 5px #7575ac45;
+}
+.header-content {
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.footer-content {
+  height: 30%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 10px 10px;
+}
+.footer-box {
+  display: flex;
+  align-items: center;
+}
+.footer-box-humid {
+  display: flex;
+  align-items: center;
+  font-size: 200%;
+}
+.body-content {
+  font-size: 300%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-title {
+  cursor: pointer;
+}
+
+.icon-container {
+  color: rgb(117, 117, 172);
+  font-size: .6em;
+}
+.icon-container-header {
+  color: rgb(117, 117, 172);
+}
+.icon-item {
+    padding-left: 5px;
+    color: red;
+    cursor: pointer;
+    font-size: 10px;
+}
+.icon-edit{
+  color: rgb(24, 155, 137);
+}
+
+
+/* table styles */
+table {
+  border-collapse: collapse;
+}
+
+tr:first-child {
+  border-bottom: 1px solid #4b4b71;
+}
+
+th, td {
+  padding: 2px;
+}
+
+th {
+  font-size: .6em;
+  font-weight: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+th:first-child {
+  min-width: 150px;
+}
+
+tr:nth-child(even) {
+  background-color: #202039;
+}
+
+/* form */
+input[type="text"] {
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #252f4b;
+  border-radius: 8px;
+  background: #1c1e2b;
+  margin: 5px 15px;
+  color: #8a8999;
+  padding: 3px 5px;
+}
+
+input[type="text"]:focus {
+  color: #ddd;
+  border: 1px solid #3f4d74;
+}
+
+.form-row {
+  display: flex;
+  max-width: 300px;
+  align-items: center;
+}
+
+.form-row input {
+  flex: 1;
+  width: 50%;
+  margin-right: 0;
+}
+
+.form-row label {
+  flex: 1;
+}
+
+button {
+  background: transparent;
+  color: #8a8999;
+  border: 1px solid #252f4b;
+  border-radius: 9px;
+  width: 300px;
+  margin: 10px 0;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+button:hover, button:focus {
+  color: #ddd;
+  border: 1px solid #3f4d74;
+}
+
+button[disabled],
+button[disabled]:hover{
+  color: #333;
+  border: 1px solid #1d2231;
+  cursor: default;
+}
